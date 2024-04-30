@@ -83,3 +83,53 @@ header > .links-header > a {
 .image > p {
   color: white;
 }
+.middle{
+  background-color: #f9faf8;
+}
+.middle > h1{
+  text-align: center;
+  padding-top: 30px;
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.cubes{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+.cubes > div{
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+}
+.text-cubes{
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.text-cubes > p{
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  color: #abadb1;
+  font-weight: bold;
+}
+.quote{
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.quote > div{
+  width: 66%;
+}
+.quote > div > p{
+  font-size: 25px;
+}
+
